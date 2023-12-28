@@ -4,7 +4,7 @@ using ApplicationException = GlobalErrorHandling.API_2.Exceptions.ApplicationExc
 
 namespace GlobalErrorHandling.API_2.Exceptions;
 
-internal sealed class GlobalExceptionHandler : IExceptionHandler
+public sealed class GlobalExceptionHandler : IExceptionHandler
 {
     private readonly ILogger<GlobalExceptionHandler> _logger;
 
